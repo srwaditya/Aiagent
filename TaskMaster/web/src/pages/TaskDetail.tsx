@@ -2,9 +2,9 @@ import React, { useEffect } from 'react';
 import styled from 'styled-components';
 import { useParams, useNavigate } from 'react-router-dom';
 import { useTheme } from '../context/ThemeContext';
-import { COLORS } from '../../../shared/constants/colors';
-import { TaskStatus, TaskPriority } from '../../../shared/types/task';
-import { formatDateTime, isOverdue } from '../../../shared/utils/dateUtils';
+import { COLORS } from '../shared/constants/colors';
+import { TaskStatus, TaskPriority } from '../shared/types/task';
+import { formatDateTime, isOverdue } from '../shared/utils/dateUtils';
 
 // Import icons
 import { 

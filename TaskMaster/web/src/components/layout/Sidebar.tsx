@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { NavLink, useLocation } from 'react-router-dom';
 import { useTheme } from '../../context/ThemeContext';
-import { COLORS } from '../../../../shared/constants/colors';
+import { COLORS } from '../../shared/constants/colors';
 
 // Import icons (assuming we're using react-icons)
 import { 

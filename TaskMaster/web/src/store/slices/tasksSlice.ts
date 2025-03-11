@@ -1,6 +1,6 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
-import { Task, TaskStatus, TaskPriority } from '../../../../shared/types/task';
-import { generateTaskId } from '../../../../shared/utils/taskUtils';
+import { Task, TaskStatus, TaskPriority } from '../../shared/types/task';
+import { generateTaskId } from '../../shared/utils/taskUtils';
 import { mockTasks } from '../mockData';
 
 interface TasksState {

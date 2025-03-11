@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
-import { LIGHT_THEME, DARK_THEME } from '../../../shared/constants/colors';
+import { LIGHT_THEME, DARK_THEME } from '../shared/constants/colors';
 
 type ThemeType = 'light' | 'dark';
 

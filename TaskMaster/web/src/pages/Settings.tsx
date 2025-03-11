@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import { useTheme } from '../context/ThemeContext';
-import { COLORS } from '../../../shared/constants/colors';
+import { COLORS } from '../shared/constants/colors';
 
 // Import icons
 import { 

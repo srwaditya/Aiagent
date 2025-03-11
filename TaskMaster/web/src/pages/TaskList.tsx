@@ -2,9 +2,9 @@ import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { useTheme } from '../context/ThemeContext';
-import { COLORS } from '../../../shared/constants/colors';
-import { Task, TaskStatus, TaskPriority, TaskFilter } from '../../../shared/types/task';
-import { filterTasks, sortTasks } from '../../../shared/utils/taskUtils';
+import { COLORS } from '../shared/constants/colors';
+import { Task, TaskStatus, TaskPriority, TaskFilter } from '../shared/types/task';
+import { filterTasks, sortTasks } from '../shared/utils/taskUtils';
 
 // Import components
 import TaskItem from '../components/tasks/TaskItem';
